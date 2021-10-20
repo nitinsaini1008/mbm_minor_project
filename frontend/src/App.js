@@ -40,7 +40,7 @@ export default function App() {
         <div className="col-lg-6 col-md-6 col-12">     
           <form onSubmit={onSubmit}>
             <div className="form-group">
-              <label for="area">Area</label>
+              <label for="area">Area(Sqft)</label>
               <input name="area" type="text" onChange={changeInput} className="form-control" id="area" placeholder="Enter Area"/>
             </div>
               <div className="form-group">
