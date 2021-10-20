@@ -34,7 +34,7 @@ class predictPrice(APIView):
 				location=str(location)
 			)
 		ans = round(float(ans),2)
-		return Response({'price':str(ans) + " Lakh Rs."})
+		return Response({'price':"Rs. "+str(ans) + " Lakh"})
 
 # for rendering the home page 
 def home(request):
