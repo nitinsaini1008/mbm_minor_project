@@ -38,7 +38,7 @@ git clone https://github.com/nitinsaini1008/mbm_minor_project/
 
 make sure python3 is installed in your system
 
-cd mbm_minor
+cd mbm_minor_project
 pip3 install -r requirenment.txt
 python3 manage.py runserver 0.0.0.0:8000
 
